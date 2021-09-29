@@ -51,16 +51,16 @@ in
       };
     };
     extensions = with pkgs.nur.repos.rycee.firefox-addons; [
-      https-everywhere
-      bitwarden
       # (buildFirefoxXpiAddon {
       #   pname = "adblock-plus";
       #   version = "3.11.2";
-      #   addonId = "{1f9ca01b-0cab-42e2-a13c-2accd2d77a7f}";
+      #   addonId = "{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}";
       #   url = "https://addons.mozilla.org/firefox/downloads/file/3833352/adblock_plus-3.11.2-an+fx.xpi";
       #   sha256 = "sha256-HVLgUOsOcEB9+D0tqGM6WUSvo3XBNqqP6gMilHBjDQU=";
       #   meta = with lib; { platforms = platforms.all; };
       # })
+      https-everywhere
+      bitwarden
       ublock-origin
       sponsorblock
     ];
