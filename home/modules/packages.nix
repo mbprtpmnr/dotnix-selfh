@@ -23,6 +23,7 @@
     lsd
     neofetch
     xarchiver
+    gopass
     p7zip
     unrar
     unzip
