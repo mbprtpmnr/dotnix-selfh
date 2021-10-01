@@ -1,6 +1,10 @@
 { config, pkgs, ... }:
 
 {
+  services.keybase.enable = true;
+
+  services.kbfs.enable = true;
+
   services.syncthing.enable = true;
 
   services.gpg-agent = {

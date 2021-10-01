@@ -14,6 +14,7 @@
     fup-repl
     hub
     kotatogram-desktop
+    keybase-gui
     meld
     gimp
     i3lock-fancy
